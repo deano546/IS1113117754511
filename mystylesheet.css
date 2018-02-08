@@ -2,6 +2,7 @@
 	width:80%;
 	margin:auto;
 	overflow:hidden;
+	 
 }
 
 #main-header{
@@ -68,11 +69,17 @@
 	
 #main-footer{
 	background: #ECECEA;
-	float: bottom;
 	color:#000;
 	text-align: center;
 	padding:2px;
 	margin-top:60px;
+	clear: both;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	
+	
 }
 
 #homeimg{
