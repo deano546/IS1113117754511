@@ -4,23 +4,24 @@ function validateDetails(){
     
     var pin;
     
-    pin= document.getElementById("user_pin"),value;
+    pin = document.getElementById("user_pin").value;
     
-    if(pin == ""){
-        alert("please enter your pin")
+    if (pin == ""){
+        alert("Please enter your PIN");
     }
-    else if(String(pin).length < 4){
-        alert("please make sure your pin is accurate");
+    else if (String(pin).length < 4){
+        alert("Please make sure your PIN is accurate");
     }
     else{
         enablebtnPurchase();
     }
+    
 }
 
 function enablebtnPurchase(){
-    $("#btnPurchase").prop("disabled", false)
+    $('#btnPurchase').prop('disabled', false);
 }
 
 function disablebtnPurchase() {
-    $("#btnPurchase").prop("disabled", true)
+    $('#btnPurchase').prop('disabled', true);
 }
