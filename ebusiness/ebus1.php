@@ -2,13 +2,34 @@
 <html>
     <head>
         <title>Select Product</title>
-        
+        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
        <script type="text/javascript" src="cost_calc.js"></script>
-       
     </head>
     
     <body>
+        
+     <header id="main-header">
+        <div class="container">
+            <h1>117754511 - IS1113 Project</h1>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="cv/cv_page1.html">CV</a></li>
+                <li><a href="Interests/sports.html">Interests</a></li>
+                <li><a href="ebusiness/ebus1.php">Shop</a></li>
+                <li><a href="#">About Us & The Cloud</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    
+    <div class="container">
+        <section id="main">
             <h4>Select a Product</h4>
             
             <br/>
@@ -53,7 +74,7 @@
             
             <label for="total">
                 total
-                <input type="text" id="total" value="0.00" readonly/>
+                <input type="text" id="total" name="total" value="0.00" readonly/>
             </label>
     
             <br/>
@@ -65,6 +86,13 @@
             <br/>
             <button onclick="calcSub()">Calculate Cost</button>
             <a role="button" href="ebus1.php">clear choice</a>
-            
+        </section>
+        
+        </div>
+    
+    <footer id="main-footer">
+        <p> &copy; George Deane 2018</p>
+    </footer>
+        
     </body>
 </html>

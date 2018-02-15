@@ -16,12 +16,12 @@ function validateDetails(){
         enablebtnPurchase();
     }
     
-}
+}//End of validateDetails()
 
 function enablebtnPurchase(){
     $('#btnPurchase').prop('disabled', false);
-}
+}//End of enablebtnPurchase()
 
 function disablebtnPurchase() {
     $('#btnPurchase').prop('disabled', true);
-}
+}//End of disablebtnPurchase()
