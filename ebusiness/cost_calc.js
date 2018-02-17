@@ -18,16 +18,29 @@ function calcSub() {
     }
     
     
-    display(argSubTotal);
+    calcDisVatTotal(argSubTotal);
     
     
 }//End of calcSub()
 
+function calcDisVatTotal(parmSubTotal) {
+    
+    var discountAmt = parmSubTotal * 0.05;
+    var tempPrice = parmSubTotal - discountAmt
+    var vatAmt = tempPrice * 0.10;
+    var totalPrice = tempPrice + vatAmt;
+    
+    display(parmSubTotal, discountAmt, vatAmt, totalPrice);
+    
+}//End of calcDisVatTotal()
 
-function display(parm1){
+
+function display(parm1, parm2, parm3, parm4){
     
     document.getElementById("subtotal").value = parm1;
-    document.getElementById("total").value = parm1;
+    document.getElementById("discount").value = parm2;
+    document.getElementById("vat").value = parm3;
+    document.getElementById("total").value = parm4;
     
     enablebtnProceed();
 }//End of display()

@@ -18,11 +18,13 @@
     <nav id="navbar">
         <div class="container">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="cv/cv_page1.html">CV</a></li>
-                <li><a href="Interests/sports.html">Interests</a></li>
-                <li><a href="ebusiness/ebus1.php">Shop</a></li>
-                <li><a href="#">About Us & The Cloud</a></li>
+                <li><a href="../homepage.html">Home</a></li>
+				<li><a href="../cv/cv_page1.html">CV</a></li>
+				<li><a href="../Interests/sports.html">Interests</a></li>
+				<li><a href="ebus1.php">Products</a></li>
+				<li><a href="#">About Cloud</a></li>
+				<li class="rightalign"><a href="https://github.com/deano546/IS1113117754511/graphs/commit-activity">GitHub Graph</a></li>
+				<li class="rightalign"><a href="https://is1113117754511.herokuapp.com/">https://is1113117754511.herokuapp.com/</a></li>
             </ul>
         </div>
     </nav>
@@ -67,9 +69,24 @@
             
             <label for="subtotal">
                 Sub Total
-             <input type="text" id="subtotal" value="0.00" readonly/>
+             <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
+            </label>  
+            
+            <br/>
+             
+             <label for="discount">
+                Discount @ 5%
+             <input type="text" id="discount" name="discount" value="0.00" readonly/>
             </label>     
+                   
                 
+            <br/>
+            
+              <label for="vat">
+                VAT @ 10%
+             <input type="text" id="vat" name="vat" value="0.00" readonly/>
+            </label>
+            
             <br/>
             
             <label for="total">

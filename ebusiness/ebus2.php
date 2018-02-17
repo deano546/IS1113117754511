@@ -22,11 +22,13 @@ session_start();
 	<nav id="navbar">
 		<div class="container">
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="cv/cv_page1.html">CV</a></li>
-				<li><a href="Interests/sports.html">Interests</a></li>
-				<li><a href="ebusiness/ebus1.php">Shop</a></li>
-				<li><a href="#">About Us & The Cloud</a></li>
+				<li><a href="../homepage.html">Home</a></li>
+				<li><a href="../cv/cv_page1.html">CV</a></li>
+				<li><a href="../Interests/sports.html">Interests</a></li>
+				<li><a href="ebus1.php">Products</a></li>
+				<li><a href="#">About Cloud</a></li>
+				<li class="rightalign"><a href="https://github.com/deano546/IS1113117754511/graphs/commit-activity">GitHub Graph</a></li>
+				<li class="rightalign"><a href="https://is1113117754511.herokuapp.com/">https://is1113117754511.herokuapp.com/</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -37,7 +39,17 @@ session_start();
 		 <h4>Please enter your payment details</h4>
         
         
-            <form action="ebus3.php" method="POST">
+            <form action="ebus3.php" method="post">
+            	
+            		<label for="name">Name</label>
+            		
+            		<input type="text" id="name" name="name">
+            		<br/>
+            		
+            		<label for="email">Email</label>
+            		<input type="text" id="email" name="email">
+            		
+            		<br/>
 
                     <label for="user_pin">PIN</label>
                     
@@ -53,6 +65,8 @@ session_start();
             <?php
             // Set session variables
         	$_SESSION["total"] = $_POST["total"];
+        	$_SESSION["name"] = $_POST["name"];
+        	$_SESSION["email"] = $_POST["email"];
           	 ?>
             
 
