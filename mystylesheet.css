@@ -1,3 +1,5 @@
+/* Main Container Div */
+
 .container{
 	width:80%;
 	margin:auto;
@@ -5,14 +7,24 @@
 	 
 }
 
+
+/* Personal section header */
+
 #main-header{
-	background-color:#558C89;
+background-color:#558C89;
 	color:#fff;
+	font-family:verdana;
+	
+
 }
+
+/* Personal section navbar */
 
 #navbar{
 	background-color:#D9853B;
 	color:#fff;
+	font-family:georgia;
+	
 }
 
 #navbar ul{
@@ -35,12 +47,7 @@
     color: black;
 }
 
-#main{
-	float:left;
-	width:70%;
-	padding:0 30px;
-	box-sizing: border-box;
-}
+/* Sidebar/Quick Links for CV Pages */
 
 #sidebar{
 	float:right;
@@ -50,6 +57,7 @@
 	padding:10px;
 	margin-top: 30px;
 	box-sizing: border-box;
+	font-family:georgia;
 }
 
 #sidebar a{
@@ -67,9 +75,48 @@
 	
 	}
 	
+	
+	
+/* Tables for CV Pages */
+	
+#table { 	
+border:5px solid #26475A;
+text-align: center;
+margin: auto;
+float: left;
+margin-top: 20px
+}
+		
+td {
+font-family: calibri;
+border: 2px solid black;
+text-align:center;
+padding: 7px;
+}
+
+th {
+padding: 10px;
+font-family: Verdana, sans-serif;
+font-size: 13px;
+font-weight: bold;
+text-align: center;
+border: 2px solid black;
+			}
+			
+#resultstable{
+	width: 50%;
+	border-collapse:collapse;
+	border:5px solid #26475A;
+	text-align: center;
+	margin: auto;
+	float: center;
+	}
+	
+/* Footer for Personal Section */
+	
 #main-footer{
-	background: #ECECEA;
-	color:#000;
+	background: #558C89;
+	color:white;
 	text-align: center;
 	padding:2px;
 	margin-top:60px;
@@ -78,16 +125,301 @@
 	right: 0;
 	left: 0;
 	bottom: 0;
+	font-family:verdana;
 	
 	
 }
+
+/* Right side image used throughout site */
 
 #homeimg{
 	float:right;
 	width:30%;
-	padding-top:10px;
+	padding-top:20px;
 }
+
+/* Aligning github/heroku links to right of navbar */
 
 .rightalign{
 	float:right;
 }
+
+
+/* Background color for Personal Section */
+
+.personal {
+	background:#ECECEA;
+}
+
+/* Header for Cloud/Business Section */
+
+#cld-header {
+	background-color:#7D1935;
+	color:#fff;
+	font-family:verdana;
+}
+
+/* Background color for Cloud/Business Section */
+
+.cldpage {
+	background:#F5F3EE;
+}
+
+/* Navbar for Cloud/Business Section */
+
+#cldnavbar{
+	background-color:#4A96AD;
+	color:#fff;
+	font-family:georgia;
+	
+}
+
+#cldnavbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#cldnavbar li{
+	display:inline;
+}
+
+#cldnavbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#cldnavbar a:hover{
+    color: black;
+}
+
+/* Positioning Logos on Cloud/Business Homepage */
+
+.sidecloud {
+	float:right;
+	width:30%;
+	
+}
+
+
+/* Sizing Logos on Cloud/Business Homepage */
+
+.cloudimage {
+	width:50%;
+}
+
+/* Image Below Text on Cloud/Business Homepage */
+
+#cldimg {
+	width:60%;
+	margin-top: 20px;
+}
+
+/* Footer for Cloud/Business Section */
+
+#cldfooter{
+	background: #7D1935;
+	color:white;
+	text-align: center;
+	padding:2px;
+	margin-top:60px;
+	clear: both;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	font-family:verdana;
+	
+	
+}
+
+
+/* Aligning textboxes in Ebusiness */
+
+.align {
+display: inline-block;
+
+width: 100px;
+
+font-weight: bold;
+
+}
+
+
+
+/* Buttons for Ebusiness Section, created using http://css3buttongenerator.com/ */
+
+.calculate {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 16px;
+  background: #4A96AD;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.calculate:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.addcart {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 16px;
+  background: #4aab55;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.addcart:hover {
+  background: #3fc42b;
+  text-decoration: none;
+}
+
+.addcart:disabled {
+	opacity: 0.6;
+	cursor:not-allowed;
+}
+
+.clrchoice {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 16px;
+  background: #db3d3d;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.clrchoice:hover {
+  background: #e63c3c;
+  text-decoration: none;
+}
+
+.validate {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 16px;
+  background: #4A96AD;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.validate:hover {
+  background: #54aec7;
+  text-decoration: none;
+}
+
+#btnPurchase {
+	-webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 16px;
+  background: #4aab55;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#btnPurchase:hover {
+  background: #3fc42b;
+  text-decoration: none;
+}
+
+#btnPurchase:disabled {
+	opacity: 0.6;
+	cursor:not-allowed;
+}
+
+/* Styling and Positioning for Text/Logo in Ebusiness */
+
+.receipt {
+width:30%;
+}
+			
+#rectext {
+	float:right;
+	margin-bottom:-100px;
+	margin-right:250px;
+	font-weight:bold;
+}
+			
+#reclogo {
+	margin-top:20px;
+}
+
+
+/* Main div for text content throughout site */
+
+#main{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+	font-family:helvetica;
+}
+
+
+/* Google Translate Widget */
+		
+#google_translate_element {
+	position: absolute;
+  left: 5px;
+  bottom: 0;
+  z-index: 1;
+  margin-bottom: 15px;
+
+}
+
+/* Social Media Icons */
+	
+.fa {
+	padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  float:right;
+  margin-top: 520px;
+  position:relative;
+  z-index:100;
+  
+  }
+
+
+ .fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+

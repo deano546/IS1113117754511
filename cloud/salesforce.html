@@ -3,26 +3,32 @@
     <head>
         <title>Salesforce</title>
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
+        <!-- Add icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     
-    <body>
-        
-     <header id="main-header">
+    <body class="cldpage">
+     
+    <!-- Header -->    
+    <header id="cld-header">
 		<div class="container">
-			<h1>117754511 - IS1113 Project</h1>
+			<h1>Cloud Services - 117754511 - IS1113 Project</h1>
 		</div>
 	</header>
 
-	<nav id="navbar">
+	<!-- Navbar -->
+	<nav id="cldnavbar">
 		<div class="container">
 			<ul>
-				<li><a href="../homepage.html">Home</a></li>
-				<li><a href="../cv/cv_page1.html">CV</a></li>
-				<li><a href="../Interests/sports.html">Interests</a></li>
-				<li><a href="../ebusiness/ebus1.php">Products</a></li>
-				<li><a href="#">About Cloud</a></li>
+			<li><a href="cloudhomepage.html">Vendor Home</a></li>
+				<li><a href="aws.html">AWS</a></li>
+				<li><a href="cloud9.html">Cloud9</a></li>
+				<li><a href="gmail.html">GMail</a></li>
+				<li><a href="salesforce.html">Salesforce</a></li>
+				<li><a href="../ebusiness/ebus1.php">Our Products</a></li>
 				<li class="rightalign"><a href="https://github.com/deano546/IS1113117754511/graphs/commit-activity">GitHub Graph</a></li>
 				<li class="rightalign"><a href="https://is1113117754511.herokuapp.com/">https://is1113117754511.herokuapp.com/</a></li>
+				<li class="rightalign"><a href="../homepage.html">Personal Home</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -30,26 +36,40 @@
 	
 	<div class="container">
 		<section id="main">
+			<!-- Content -->
 			<h1>Salesforce - Software as a Service</h1>
-			<p>Thank you for visiting our website. Please choose one of the sections in the NavBar at the top.</p>
+			<h4>Software as a Service</h4>
+			<p>Software as a service is a method of distributing applications. 
+			It is where the software is hosted on the internet and the customers access the software over the internet also. 
+			This comes with a number of benefits, such as minimising the amount of work required when an organisation wishes to install/upgrade software for all of their employees. 
+			Normally it would require the IT team to work through all the systems in the organisation and troubleshoot any problems that might arise, but with SaaS no installation will be required, 
+			and can be accessed from any computer.</p>
+			
+			<br/>
+			<h4>Salesforce</h4>
+			<p>Salesforce provides a cloud based Customer Relationship Management suite of applications. These applications are used by companies to streamline and improve their customer services, and to help analyse customer data as to determine how best to serve particular customers. 
+			They offer a number of products which specialise in areas such as: Sales, Services, Marketing and eCommerce.</p>
+			<br/>
+			<a href="https://www.salesforce.com/saas/"><p>Salesforce - Software as a Service</p></a>
 		</section>
 		
 
+		<!-- Logo -->
+		<img id="homeimg" src="https://axeos.com/wp-content/uploads/2017/04/salesforcelogo.png">
 	
-	<img id="homeimg" src="https://axeos.com/wp-content/uploads/2017/04/salesforcelogo.png">
+	</div>
 	
-	<ul id="sidebar">
-		  <h2>Quick Links</h2>
-		<li><a href="cv_page1.html">Salesforce</a></li>		
-		<li><a href="cv_page2.html">Cloud9</a></li>
-		<li><a href="cv_page3.html">Amazon Web Services</a></li>
-		<li><a href="cv_page3.html">Gmail</a></li>
-		</ul>
-		</div>
-	
-	<footer id="main-footer">
+	<!-- Footer -->
+	<footer id="cldfooter">
 		<p> &copy; George Deane 2018</p>
 	</footer>
+	
+	<!-- Google Translate Widget -->
+	<div id="google_translate_element"></div><script type="text/javascript">
+	function googleTranslateElementInit() {
+	new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+	}
+	</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         
     </body>
 </html>

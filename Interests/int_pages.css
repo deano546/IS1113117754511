@@ -1,16 +1,145 @@
-#section1{
-        background-color: rgb(238, 0, 90);
+
+/* Styling Text on the Images, Making it Legible */
+
+body{
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	color: #f2f2f2;
 }
 
-#section2{
-        background-color: rgb(44, 62, 80);
+h1{
+	font-size: 6em;
 }
 
-#section3{
-        background-color: rgb(51, 153, 204);
+#ptext {
+    font-size: 2em;
 }
 
 .section{
     text-align: center;
     color: white;
+    position:absolute;
+  
 }
+
+
+/* Choosing Background Images for Page Piling */
+
+#section1{
+        background-image: url("../images/gdrive.jpg");
+        background-size:cover;
+         
+        
+}
+
+#section2{
+        background-image: url("../images/twitter.jpg");
+        background-size:cover;
+         
+        
+}
+
+#section3{
+       background-image: url("../images/psn.jpg");
+       background-size:cover;
+        
+       
+}
+
+#section4{
+       background-image: url("../images/ot.jpg");
+       background-size:cover;
+       
+       
+}
+
+#section5{
+       background-image: url("../images/tennis.jpg");
+       background-size:cover;
+   
+       
+}
+
+#section6{
+       background-image: url("../images/London.jpg");
+       background-size:cover;
+  
+       
+}
+
+#section7{
+       background-image: url("../images/tokyo.jpg");
+       background-size:cover;
+
+       
+}
+
+#section8{
+       background-image: url("../images/sydney.jpg");
+       background-size:cover;
+
+       
+}
+
+/* Buttons to Navigate Page Piling Pages, some code taken from Page Piling Examples https://alvarotrigo.com/pagePiling/ */
+
+#menu li {
+	display:inline-block;
+	margin: 10px;
+	color: #000;
+	background:#fff;
+	background: rgba(255,255,255, 0.5);
+	-webkit-border-radius: 10px;
+            border-radius: 10px;
+}
+#menu li.active{
+	background:#666;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+#menu li a{
+	text-decoration:none;
+	color: #000;
+}
+#menu li.active a:hover{
+	color: #000;
+}
+#menu li:hover{
+	background: rgba(255,255,255, 0.8);
+}
+#menu li a,
+#menu li.active a{
+	padding: 9px 18px;
+	display:block;
+}
+#menu li.active a{
+	color: #fff;
+}
+#menu{
+	position:fixed;
+	bottom:65px;
+	left:0;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+/* Navbar */
+
+#navbar {
+   width: 100%;
+   position: fixed;
+   top: 0;
+   z-index: 100;
+}
+
+/* Footer */
+
+#main-footer {
+    width: 100%;
+   position: fixed;
+   z-index: 100;
+   font-size: 1em;
+}
+

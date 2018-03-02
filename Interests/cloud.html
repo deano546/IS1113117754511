@@ -5,15 +5,15 @@
         <title>Travel</title>
         <link rel="stylesheet" href= "../mystylesheet.css" type= "text/css"/>
         <link rel="stylesheet" href= "int_pages.css" type= "text/css"/>
+       
+        <!-- Add icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
          
           
-        
+        <!--Adding Page Piling-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        
-        
-        <!--Adding Page Piling-->
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
@@ -23,18 +23,58 @@
 	        $('#pagepiling').pagepiling();
              });
         </script>
+        
     </head>
 
     <body>
+    	
+    <!-- Navbar -->
+        
+    <nav id="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="../homepage.html">Personal Home</a></li>
+				<li><a href="../cv/cv_page1.html">CV</a></li>
+				<li><a href="sports.html">Interests</a></li>
+				<li class="rightalign"><a href="https://github.com/deano546/IS1113117754511/graphs/commit-activity">GitHub Graph</a></li>
+				<li class="rightalign"><a href="https://is1113117754511.herokuapp.com/">https://is1113117754511.herokuapp.com/</a></li>
+				<li class="rightalign"><a href="../cloud/cloudhomepage.html">Cloud Vendor Home</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	
+	<!-- Buttons for navigating Page Piling -->
+	<ul id="menu">
+		<li data-menuanchor="page1"><a href="sports.html">Sports</a></li>
+		<li data-menuanchor="page2"><a href="travel.html">Travel</a></li>
+		<li data-menuanchor="page3" class="active"><a href="#">Cloud</a></li>
+		
+	</ul>
+     
+    <!-- Page Piling Content -->
      
     <div id="pagepiling">
-	<div class="section" id="section1">Online Storage: Google Drive</div>
-	<div class="section" id="section1">Social Media: Twitter</div>
-	<div class="section" id="section1">Online Gaming: PSN</div>
-	<br/>
-	<a href="../homepage.html">Home</a>
+	<div class="section" id="section1"><p id="ptext">Online Storage: Google Drive</p></div>
+	<div class="section" id="section2"><p id="ptext">Social Media: Twitter</p></div>
+	<div class="section" id="section3"><p id="ptext">Online Gaming: PSN</p>
 	
+	</div>
     </div>   
+    
+    <!-- Footer -->
+    
+    <footer id="main-footer">
+		<p> &copy; George Deane 2018</p>
+	</footer>
+	
+	<!-- Google Translate Widget -->
+	
+	<div id="google_translate_element"></div><script type="text/javascript">
+	function googleTranslateElementInit() {
+	new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+			}
+	</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
      
     </body>
 </html>

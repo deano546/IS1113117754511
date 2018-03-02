@@ -26,7 +26,7 @@ function calcSub() {
 function calcDisVatTotal(parmSubTotal) {
     
     var discountAmt = parmSubTotal * 0.05;
-    var tempPrice = parmSubTotal - discountAmt
+    var tempPrice = parmSubTotal - discountAmt;
     var vatAmt = tempPrice * 0.10;
     var totalPrice = tempPrice + vatAmt;
     
@@ -52,5 +52,8 @@ function enablebtnProceed(){
 
 
 function disablebtnProceed() {
-    $('btnproceed').prop('disabled', true);
+    $('#btnproceed').prop('disabled', true);
 }//End of disablebtnProcees()
+
+
+

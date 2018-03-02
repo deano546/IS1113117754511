@@ -11,9 +11,11 @@ function validateDetails(){
     email = document.getElementById("email").value;
     
     if (pin == ""  || name == "" || email == "") {
+        
         alert("Please ensure all fields have been filled.");
     }
     else if (String(pin).length < 4){
+        
         alert("Please make sure your PIN is accurate");
     }
     else{
