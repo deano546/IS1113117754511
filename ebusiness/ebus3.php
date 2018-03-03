@@ -28,7 +28,7 @@ session_start();
 			else {
 			document.getElementById("reclogo").innerHTML = "<img  id='homeimg' src='https://fthmb.tqn.com/tYgJGEdBuq6-UanTN90lSTvzqDA=/735x0/gmail1-56a6a4223df78cf7728f8909.png'>";	
 			}
-		}
+		}//End of imgload()
 		</script>
 
         <title>RECEIPT</title>
@@ -74,8 +74,6 @@ session_start();
         ?>
         <p>Thank you for your purchase.</p>
         <img class="receipt" src="http://www.clker.com/cliparts/b/1/b/N/T/m/receipt-hi.png">
-        
-        
         
         </section>
         

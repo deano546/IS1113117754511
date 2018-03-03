@@ -79,7 +79,7 @@ background-color:#558C89;
 	
 /* Tables for CV Pages */
 	
-#table { 	
+#regtable { 	
 border:5px solid #26475A;
 text-align: center;
 margin: auto;
@@ -103,7 +103,7 @@ text-align: center;
 border: 2px solid black;
 			}
 			
-#resultstable{
+#schooltable{
 	width: 50%;
 	border-collapse:collapse;
 	border:5px solid #26475A;
@@ -380,7 +380,7 @@ width:30%;
 	position: absolute;
   left: 5px;
   bottom: 0;
-  z-index: 1;
+  z-index: 100;
   margin-bottom: 15px;
 
 }
@@ -395,7 +395,7 @@ width:30%;
   text-decoration: none;
   margin: 2px 2px;
   float:right;
-  margin-top: 520px;
+  margin-top: 530px;
   position:relative;
   z-index:100;
   

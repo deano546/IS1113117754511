@@ -6,12 +6,10 @@ body{
 	color: #f2f2f2;
 }
 
-h1{
-	font-size: 6em;
-}
 
 #ptext {
     font-size: 2em;
+    margin-top:-200px;
 }
 
 .section{
@@ -80,7 +78,7 @@ h1{
        
 }
 
-/* Buttons to Navigate Page Piling Pages, some code taken from Page Piling Examples https://alvarotrigo.com/pagePiling/ */
+/* Buttons to Navigate Page Piling Pages, some code adapted from Page Piling Examples https://alvarotrigo.com/pagePiling/ */
 
 #menu li {
 	display:inline-block;
@@ -125,14 +123,19 @@ h1{
 	margin:0;
 }
 
+/* Header */
+#main-header {
+    z-index:100;
+    position:relative;
+}
+
 /* Navbar */
 
 #navbar {
-   width: 100%;
-   position: fixed;
-   top: 0;
-   z-index: 100;
+    z-index:100;
+    position:relative;
 }
+
 
 /* Footer */
 
@@ -142,4 +145,10 @@ h1{
    z-index: 100;
    font-size: 1em;
 }
+
+/* Social Media Icon Positioning */
+.footlinks {
+ 	margin-top:250px;
+}
+
 
