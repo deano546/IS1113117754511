@@ -7,7 +7,7 @@ body{
 }
 
 
-#ptext {
+.ptext {
     font-size: 2em;
     margin-top:-200px;
 }
@@ -144,11 +144,6 @@ body{
    position: fixed;
    z-index: 100;
    font-size: 1em;
-}
-
-/* Social Media Icon Positioning */
-.footlinks {
- 	margin-top:250px;
 }
 
 

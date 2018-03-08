@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Select Product</title>
         
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>

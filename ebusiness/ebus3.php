@@ -4,6 +4,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+    	<meta charset="utf-8">
         <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
@@ -73,7 +74,7 @@ session_start();
         echo "Total is &euro;" . $_SESSION["total"] . ". <br>";
         ?>
         <p>Thank you for your purchase.</p>
-        <img class="receipt" src="http://www.clker.com/cliparts/b/1/b/N/T/m/receipt-hi.png">
+        <img class="receipt" src="http://www.clker.com/cliparts/b/1/b/N/T/m/receipt-hi.png" alt="Receipt">
         
         </section>
         

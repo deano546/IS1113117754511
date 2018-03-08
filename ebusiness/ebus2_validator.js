@@ -12,7 +12,7 @@ function validateDetails(){
     
     if (pin == ""  || name == "" || email == "") {
         
-        alert("Please ensure all fields have been filled.");
+        alert("Please ensure all fields have been filled out.");
     }
     else if (String(pin).length < 4){
         

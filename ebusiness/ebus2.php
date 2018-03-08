@@ -5,6 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html>
     <head>
+    	<meta charset="utf-8">
         <title>Enter Details</title>
         
         <script type="text/javascript" src="ebus2_validator.js"></script>
